@@ -8,9 +8,9 @@
       "publisher": "SecretBiology",
       "tray_image_file": "try_bokur.png",
       "publisher_email":"contact@secretbiology.com",
-      "publisher_website": "https://secretbiology.com",
-      "privacy_policy_website": "",
-      "license_agreement_website": "",
+      "publisher_website": "https://github.com/secretBiology/BasicStickers",
+      "privacy_policy_website": "https://github.com/secretBiology/BasicStickers/blob/master/Privacy.md",
+      "license_agreement_website": "https://github.com/secretBiology/BasicStickers/blob/master/LICENSE",
       "stickers": [
         {
           "image_file": "b1.webp",
