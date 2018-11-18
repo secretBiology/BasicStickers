@@ -1,0 +1,50 @@
+{
+  "android_play_store_link": "",
+  "ios_app_store_link": "",
+  "sticker_packs": [
+    {
+      "identifier": "1",
+      "name": "Bokur",
+      "publisher": "SecretBiology",
+      "tray_image_file": "try_bokur.png",
+      "publisher_email":"contact@secretbiology.com",
+      "publisher_website": "https://secretbiology.com",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {
+          "image_file": "b1.webp",
+          "emojis": ["\uD83D\uDE42"]
+        },
+        {
+          "image_file": "b2.webp",
+          "emojis": ["\uD83D\uDE2E"]
+        },
+        {
+          "image_file": "b3.webp",
+          "emojis": ["\uD83D\uDE0D"]
+        },
+        {
+          "image_file": "b4.webp",
+          "emojis": ["\uD83D\uDE48"]
+        },
+        {
+          "image_file": "b5.webp",
+          "emojis": ["\uD83D\uDE2D"]
+        },
+        {
+          "image_file": "b6.webp",
+          "emojis": ["\uD83D\uDE34"]
+        },
+        {
+          "image_file": "b7.webp",
+          "emojis": ["\uD83D\uDC4D"]
+        },
+        {
+          "image_file": "b8.webp",
+          "emojis": ["\uD83D\uDE02"]
+        }
+      ]
+    }
+  ]
+}
