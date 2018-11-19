@@ -1,4 +1,4 @@
-package com.secretbiology.stickertest;
+package com.secretbiology.stickers.basics;
 
 import android.view.LayoutInflater;
 import android.view.View;

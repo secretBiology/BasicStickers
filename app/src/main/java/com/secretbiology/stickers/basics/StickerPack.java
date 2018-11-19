@@ -1,4 +1,4 @@
-package com.secretbiology.stickertest;
+package com.secretbiology.stickers.basics;
 
 import android.os.Parcel;
 import android.os.Parcelable;

@@ -1,4 +1,4 @@
-package com.secretbiology.stickertest;
+package com.secretbiology.stickers.basics;
 
 import android.content.*;
 import android.content.res.AssetFileDescriptor;

@@ -1,11 +1,11 @@
 {
-  "android_play_store_link": "",
+  "android_play_store_link": "https://play.google.com/store/apps/details?id=com.secretbiology.stickers.basics",
   "ios_app_store_link": "",
   "sticker_packs": [
     {
       "identifier": "1",
       "name": "Bokur",
-      "publisher": "SecretBiology",
+      "publisher": "Rohit Suratekar",
       "tray_image_file": "try_bokur.png",
       "publisher_email":"contact@secretbiology.com",
       "publisher_website": "https://github.com/secretBiology/BasicStickers",

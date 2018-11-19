@@ -1,4 +1,4 @@
-package com.secretbiology.stickertest
+package com.secretbiology.basics
 
 import org.junit.Test
 

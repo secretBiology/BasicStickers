@@ -1,4 +1,4 @@
-package com.secretbiology.stickertest;
+package com.secretbiology.stickers.basics;
 
 import android.content.ContentResolver;
 import android.content.Context;
@@ -14,7 +14,7 @@ import java.util.Arrays;
 import java.util.HashSet;
 import java.util.List;
 
-import static com.secretbiology.stickertest.StickerContentProvider.*;
+import static com.secretbiology.stickers.basics.StickerContentProvider.*;
 
 public class StickerPackLoader {
 

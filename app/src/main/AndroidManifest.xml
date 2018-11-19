@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           xmlns:tools="http://schemas.android.com/tools"
-          package="com.secretbiology.stickertest">
+          package="com.secretbiology.stickers.basics">
 
     <application
             android:allowBackup="false"
@@ -11,7 +11,7 @@
             android:supportsRtl="true"
             android:theme="@style/AppTheme"
             tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".MainActivity">
+        <activity android:name="com.secretbiology.stickers.basics.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
@@ -20,28 +20,28 @@
         </activity>
 
         <activity
-                android:name=".StickerPackListActivity"
+                android:name="com.secretbiology.stickers.basics.StickerPackListActivity"
                 android:label="@string/title_activity_sticker_packs_list"/>
         <activity
-                android:name=".StickerPackDetailsActivity"
-                android:parentActivityName=".StickerPackListActivity"
+                android:name="com.secretbiology.stickers.basics.StickerPackDetailsActivity"
+                android:parentActivityName="com.secretbiology.stickers.basics.StickerPackListActivity"
                 tools:ignore="UnusedAttribute">
             <meta-data
                     android:name="android.support.PARENT_ACTIVITY"
-                    android:value="com.secretbiology.stickertest.StickerPackListActivity"/>
+                    android:value="com.secretbiology.stickers.basics.StickerPackListActivity"/>
         </activity>
         <activity
-                android:name=".StickerPackInfoActivity"
+                android:name="com.secretbiology.stickers.basics.StickerPackInfoActivity"
                 android:label="@string/title_activity_sticker_pack_info"
-                android:parentActivityName=".StickerPackDetailsActivity"
+                android:parentActivityName="com.secretbiology.stickers.basics.StickerPackDetailsActivity"
                 tools:ignore="UnusedAttribute">
             <meta-data
                     android:name="android.support.PARENT_ACTIVITY"
-                    android:value="com.secretbiology.stickertest.StickerPackDetailsActivity"/>
+                    android:value="com.secretbiology.stickers.basics.StickerPackDetailsActivity"/>
         </activity>
 
         <provider
-                android:name=".StickerContentProvider"
+                android:name="com.secretbiology.stickers.basics.StickerContentProvider"
                 android:authorities="${contentProviderAuthority}"
                 android:enabled="true"
                 android:exported="true"
